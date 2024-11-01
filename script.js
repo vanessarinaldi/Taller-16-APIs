@@ -33,11 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
    
-    document.getElementById('search-btn').addEventListener('click', () => {
+    document.getElementById('search-input').addEventListener('input', () => {
         const searchTerm = document.getElementById('search-input').value;
         marvel.render(searchTerm);
     });
 });
-
-
-    
