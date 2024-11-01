@@ -44,7 +44,10 @@ button:hover {
     box-shadow: 5px 5px 0px #333030; 
     background-color: #f8d64e; 
     transition: transform 0.3s;
-    margin-bottom: 30px; 
+    margin-left: 5% !important;
+    width: 300px !important;
+    margin-top: 5% !important;
+   
   }
   
   .comic-card:hover {
@@ -61,5 +64,7 @@ button:hover {
   .img-thumbnail {
     border-bottom: 4px solid #000; 
     padding: 10px;
+    width: 100%; 
+    height: auto !important;
 
   }
