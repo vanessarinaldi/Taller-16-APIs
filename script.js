@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         for (const hero of json.data.results) {
                             let urlHero = hero.urls[0].url;
                             contentHTML += `
-                                <div class="col-md-4 col-sm-6 card comic-card">
+                                <div class="col-md-4 col-sm-6 card row comic-card">
                                     <a href="${urlHero}" target="_blank">
                                         <h3 class="card-title">${hero.name}</h3>
                                         <img src="${hero.thumbnail.path}.${hero.thumbnail.extension}" alt="${hero.name}" class="img-thumbnail">
