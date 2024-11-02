@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: #333 !important;
 }
 
 input {
@@ -68,3 +68,15 @@ button:hover {
     height: auto !important;
 
   }
+  @media (max-width: 767px) {
+    body {
+      background-image: url('/Marvel1.jpg');
+      background-size: cover;         
+      background-position: center;     
+      background-repeat: no-repeat;   
+      background-attachment: fixed;    
+      margin: 0;
+    }
+  }
+  
+  
